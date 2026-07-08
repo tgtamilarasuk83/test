@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
 import path from 'path';
 
-const envName = (process.env.ENV || 'ninja').trim();
+const envName = (process.env.ENV || '').trim();
 const envPath = path.resolve(process.cwd(), `env/.env.${envName}`);
 
 // console.log(`Loading env file: ${envPath}`);

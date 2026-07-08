@@ -28,10 +28,10 @@ export class Login extends BasePage {
             await this.click(this.Loginlink)
            }
 
-           async enterdetails(value:any){
-            await this.fill(this.Email,value.Email);
-            await this.fill(this.pass,value.Password);
-           }
+           async enterdetails(value: any) {
+             await this.fill(this.Email, value.email);
+            await this.fill(this.pass, value.password);
+      }
 
            async clickbtn(){
             await this.click(this.loginbtn)

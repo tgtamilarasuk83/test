@@ -8,21 +8,21 @@ const valid = Logindata.valid
 const invalid = Logindata.invalid
 
 When('the user click on the login', async function (this:TamilWorld) {
-    this.Login.clickLogin()
+   await  this.Login.clickLogin()
   
 });
 
 When('Enters The Email and Password', async function (this:TamilWorld) {
-    this.Login.enterdetails(valid);
+    await this.Login.enterdetails(valid);
 
 });
 
 When('Enters The invalid  Email and Password', async function () {
-  this.Login.enterdetails(invalid);
+   await this.Login.enterdetails(invalid);
 });
 
 When('Click on the login', async function (this:TamilWorld) {
-    this.Login.clickLogin()
+    await this.Login.clickLogin()
   
 });
 
@@ -32,5 +32,5 @@ Then('The user sucessfully Login to the application', async function (this:Tamil
 
 Then('The user can see the error message', async function (this:TamilWorld) {
 
-    this.Login.faillogins()
+    await this.Login.faillogins()
 });
