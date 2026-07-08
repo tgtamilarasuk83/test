@@ -1,0 +1,10 @@
+{
+    "valid": {
+        "email": "acctamil@gmail.com",
+        "password": "acctamil@gmail.com"
+    },
+    "invalid": {
+        "email": "acc2tamil@gmail.com",
+        "password": "acc2tamil@gmail.com"
+    }
+}
