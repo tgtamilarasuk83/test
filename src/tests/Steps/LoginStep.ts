@@ -23,7 +23,7 @@ When('Enters The invalid  Email and Password', async function () {
 
 When('Click on the login', async function (this:TamilWorld) {
       await new Promise((resolve) => setTimeout(resolve, 9000));
-      await this.Login.clickLogin()
+        await this.Login.clickbtn()
   
 });
 

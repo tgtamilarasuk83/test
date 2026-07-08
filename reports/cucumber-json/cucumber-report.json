@@ -4,69 +4,69 @@
     "elements": [
       {
         "description": "",
-        "id": "tamilarasu_k_8_07_2026_registerfeature;register-with-validcredials",
-        "keyword": "Scenario Outline",
-        "line": 16,
-        "name": "Register with validCredials",
+        "id": "tamilarasuk_8_07_2026_loginfeature;login-with-valid-credetials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login with valid credetials",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3376947499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the user in the Dashboard",
-            "match": {
-              "location": "src\\tests\\Steps\\registerStep.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3127899
+              "duration": 5654122199
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 9,
-            "name": "The user enters \"Tamilarasu\" , \"k\",\"<Email:>\",\"testingtamil@gmail.com\",\"testingtamil@gmail.com\" details",
+            "line": 5,
+            "name": "the user click on the login",
             "match": {
-              "location": "src\\tests\\Steps\\registerStep.ts:9"
+              "location": "src\\tests\\Steps\\LoginStep.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 159998499
+              "duration": 448777000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
-            "name": "The user click on the Register button",
+            "line": 6,
+            "name": "Enters The Email and Password",
             "match": {
-              "location": "src\\tests\\Steps\\registerStep.ts:14"
+              "location": "src\\tests\\Steps\\LoginStep.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 18045304599
+              "duration": 35071800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Click on the login",
+            "match": {
+              "location": "src\\tests\\Steps\\LoginStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9782405899
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
-            "name": "The user register sucessfully with the message of Your registration completed",
+            "line": 8,
+            "name": "The user sucessfully Login to the application",
             "match": {
-              "location": "src\\tests\\Steps\\registerStep.ts:21"
+              "location": "src\\tests\\Steps\\LoginStep.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 9007885199
+              "duration": 9012462199
             }
           },
           {
@@ -74,29 +74,113 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 19819599
+              "duration": 17970300
             }
           }
         ],
         "tags": [
           {
-            "name": "@Tamilarasur",
+            "name": "@Tamilarasu",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "tamilarasuk_8_07_2026_loginfeature;login-with-invalid-credetials",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login with invalid credetials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4978366499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user click on the login",
+            "match": {
+              "location": "src\\tests\\Steps\\LoginStep.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 442554000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Enters The invalid  Email and Password",
+            "match": {
+              "location": "src\\tests\\Steps\\LoginStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66399299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on the login",
+            "match": {
+              "location": "src\\tests\\Steps\\LoginStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9441876299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The user can see the error message",
+            "match": {
+              "location": "src\\tests\\Steps\\LoginStep.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9002920400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22219900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tamilarasu",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "tamilarasu_k_8_07_2026_registerfeature",
+    "id": "tamilarasuk_8_07_2026_loginfeature",
     "line": 2,
     "keyword": "Feature",
-    "name": "Tamilarasu_K_8_07_2026_RegisterFeature",
+    "name": "TamilarasuK_8_07_2026_LoginFeature",
     "tags": [
       {
-        "name": "@Tamilarasur",
+        "name": "@Tamilarasu",
         "line": 1
       }
     ],
-    "uri": "src\\tests\\features\\Register.feature"
+    "uri": "src\\tests\\features\\Login.feature"
   }
 ]

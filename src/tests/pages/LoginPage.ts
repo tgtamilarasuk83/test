@@ -34,7 +34,7 @@ export class Login extends BasePage {
       }
 
            async clickbtn(){
-            await this.click(this.loginbtn)
+               await this.click(this.loginbtn)
            }
            
            async faillogins(){
