@@ -1,4 +1,4 @@
-@Tamilarasu
+@Tamilarasur
 Feature: Tamilarasu_K_8_07_2026_RegisterFeature
 
 Background: 
@@ -12,5 +12,5 @@ Then The user register sucessfully with the message of Your registration complet
 
 
 Examples:
-    | First name: | Last name: | Email |Password | Confirm password:|
-    | Tamilarasu   | k | testingtamil@gmail.com  |testingtamil@gmail.com|testingtamil@gmail.com|
+    | First name: | Last name: | Email                    |Password              | Confirm password:|
+    | Tamilarasu  | k          | testing3tamil@gmail.com  |testingtamil@gmail.com|testingtamil@gmail.com|
