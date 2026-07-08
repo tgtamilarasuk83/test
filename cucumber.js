@@ -7,12 +7,12 @@ module.exports = {
     requireModule: ["ts-node/register"],
 
     require: [
-      'src/test/hooks/**/*.ts',
+      'src/tests/hooks/**/*.ts',
       'src/world/**/*.ts',
-      'src/test/step-definition/**/*.ts'
+      'src/tests/Steps/**/*.ts'
     ],
 
-    paths: ['src/test/features/**/*.feature'],
+    paths: ['src/tests/features/**/*.feature'],
 
     publishQuiet: true,
     dryRun: false,
@@ -32,9 +32,9 @@ module.exports = {
     requireModule: ["ts-node/register"],
 
     require: [
-      'src/test/hooks/**/*.ts',
+      'src/tests/hooks/**/*.ts',
       'src/world/**/*.ts',
-      'src/test/step-definition/**/*.ts'
+      'src/tests/Steps/**/*.ts'
     ],
 
     paths: ['rerun/@rerun.txt'],
